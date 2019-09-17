@@ -21,7 +21,7 @@
         }
 
         .heightMin td{
-            height: 7em;
+            height: 5em;
             vertical-align: top;
         }
 
@@ -188,7 +188,7 @@
         <td width="10%" class="center">Aprovado</td>
     </tr>
     <tr>
-        <td class="center"><strong>{{mb_strtoupper($dados['tcc']->ltc_titulo, 'UTF-8')}}</strong></td>
+        <td class="center"><strong>{{$dados['tcc']->ltc_titulo}}</strong></td>
         <td colspan="3" class="center">
             <p><strong>DATA</strong></p>
             <p>{{$dados['tcc']->ltc_data_apresentacao}}</p>
@@ -202,7 +202,8 @@
         <td class="center"><strong>REGULAMENTAÇÃO</strong></td>
     </tr>
     <tr>
-        <td style="text-align: justify;">O curso está em conformidade com a Resolução Nº 01 do CNE/CES de 08 de junho de 2007, e normas dos cursos de Pós-Graduação "Lato Sensu" da Universidade Estadual do Maranhão, aprovada pela Resolução 909/2009-CEPE/UEMA de 15 de dezembro de 2009</td>
+        <td style="text-align: justify;">“O Curso está em conformidade com a Resolução n ° 01 CNE/CES de 08 de junho de 2007 e Normas dos cursos de Pós-Graduação “Lato Sensu” da Universidade Estadual do Maranhão aprovada pela Resolução N° 1244/2017-CEPE/UEMA de 04 de
+            abril de 2017”.</td>
     </tr>
     </tbody>
 </table>
